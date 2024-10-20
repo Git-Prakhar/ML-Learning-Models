@@ -16,16 +16,36 @@ This repository contains implementations of basic linear regression models using
 4. **multiReg.py**  
    Implements multiple linear regression. This file demonstrates a multiple linear regression model using Scikit-Learn.
 
+5. **logisticReg.py**
+   Implements logistic regression. This file demonstrates a logistic regression model without using Scikit-Learn.
+
+6. **Example Project Folder**
+   Contains a sample projects that demonstrates the use of models.
+
+   6.1 **loanAmountPredictor.py**
+   A simple project that demonstrates the use of linear regression to predict the loan amount based on the applicant's income and credit score.
+
+   6.2 **loanApprovalPredictor.py**
+   A simple project that demonstrates the use of logistic regression to predict the loan approval status based on the applicant's income and credit score.
+
+7. **csv Folder**
+   Contains the dataset used in the example project.
+
+   7.1 **loanApproveData.csv**
+   A dataset containing the applicant's age, income, loan amount, credit score, and loan approval status.
+
 ## Requirements
 
 - Python 3.x
 - NumPy
+- Pandas
+- Matplotlib
 - Scikit-Learn (optional, depending on the file usage)
 
 You can install the necessary libraries using pip:
 
 ```bash
-pip install numpy scikit-learn
+pip install numpy pandas matplotlib scikit-learn
 ```
 
 ## Usage
